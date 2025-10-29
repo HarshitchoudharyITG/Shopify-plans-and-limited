@@ -1,0 +1,504 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            background-color: #f4f4f4;
+        }
+
+        h1 {
+            color: #333;
+        }
+
+        li {
+            margin: 5px 0;
+            list-style: none;
+        }
+
+        .main {
+            background: #fff;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+            gap: 30px;
+        }
+
+        .container {
+            max-width: 1600px;
+            width: 100%;
+            background-color: white;
+            border-radius: 12px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+        }
+
+        header {
+            background: linear-gradient(to right, #4a6ee0, #6a11cb);
+            color: white;
+            padding: 25px 30px;
+            text-align: center;
+        }
+
+        h1 {
+            font-size: 28px;
+            margin-bottom: 8px;
+        }
+
+        .subtitle {
+            font-size: 16px;
+            opacity: 0.9;
+        }
+
+        .table-container {
+            padding: 25px;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+        }
+
+        th {
+            background-color: #ffffff;
+            color: white;
+            font-weight: 600;
+            text-align: left;
+            padding: 18px 20px;
+            font-size: 18px;
+        }
+
+        tr {
+            border-bottom: 1px solid #eef1f7;
+        }
+
+        tr:last-child {
+            border-bottom: none;
+        }
+
+        td {
+            padding: 18px 20px;
+            font-size: 16px;
+        }
+
+        tr:nth-child(even) {
+            background-color: #f8fafd;
+        }
+
+        tr:hover {
+            background-color: #f0f4ff;
+            transition: background-color 0.2s ease;
+        }
+
+        .feature {
+            font-weight: 600;
+            color: #2c3e50;
+        }
+
+        .domain {
+    color: #4a6ee0;
+    font-weight: 500;
+    text-align: center;
+}
+
+        .purpose {
+            color: #27ae60;
+             text-align: center;
+        }
+
+        .setup {
+    color: #e67e22;
+    text-align: center;
+}
+        .footer {
+            text-align: center;
+            padding: 20px;
+            color: #7f8c8d;
+            font-size: 14px;
+            border-top: 1px solid #eef1f7;
+        }
+
+        @media (max-width: 600px) {
+
+            th,
+            td {
+                padding: 14px 15px;
+                font-size: 15px;
+            }
+
+            h1 {
+                font-size: 24px;
+            }
+
+            .table-container {
+                padding: 15px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+
+
+
+
+
+
+    <H1>Shopify Have 4 plans</H1>
+    <div class="main">
+        <li>Things</li>
+        <li>Basic Plan limited</li>
+        <li>Grow Plan limited</li>
+        <li>Advanced Plan limited</li>
+        <li>Shopify Plus Plan limited</li>
+    </div>
+    <h1>✅ Product & Catalog Limits</h1>
+
+    <div class="main">
+        <li>Products</li>
+        <li>Unlimited</li>
+        <li>Unlimited</li>
+        <li>Unlimited</li>
+        <li>Unlimited</li>
+    </div>
+    <div class="main">
+        <li>Variants per product</li>
+        <li>1000</li>
+        <li>1000</li>
+        <li>1000</li>
+        <li>1,000+ (can be increased by apps/API)</li>
+    </div>
+    <div class="main">
+        <li>Options per product</li>
+        <li>3 options</li>
+        <li>3 options</li>
+        <li>3 options</li>
+        <li>3 options (extendable with apps)</li>
+    </div>
+    <div class="main">
+        <li>Media per product (images, 3D, video)</li>
+        <li>✅ Unlimited</li>
+        <li>✅ Unlimited</li>
+        <li>✅ Unlimited</li>
+        <li>✅ Unlimited </li>
+    </div>
+
+    <div class="main">
+        <li>Collections </li>
+        <li>✅ Unlimited</li>
+        <li>✅ Unlimited</li>
+        <li>✅ Unlimited</li>
+        <li>✅ Unlimited</li>
+    </div>
+
+    <h1>🧍 Staff Account Limits</h1>
+    <div class="main">
+        <li>Staff Accounts</li>
+        <li>No Staff Accounts add</li>
+        <li>5</li>
+        <li>15</li>
+        <li>Unlimited</li>
+    </div>
+
+    <div class="main">
+        <li>POS staff roles</li>
+        <li>✅ Yes</li>
+        <li>✅ Yes</li>
+        <li>✅ Yes</li>
+        <li>✅ Yes</li>
+    </div>
+    <h1>🏬 Inventory (Physical Locations) Limits</h1>
+
+    <div class="main">
+        <li>Locations Inventory</li>
+        <li>10</li>
+        <li>10</li>
+        <li>10</li>
+        <li>200</li>
+    </div>
+
+    <h1>🌐 Online Store & Sales Channels</h1>
+
+    <div class="main">
+        <li>POS</li>
+        <li>Lower</li>
+        <li>Lower</li>
+        <li>Lowest</li>
+        <li>Custom contract</li>
+    </div>
+
+
+    <div class="main">
+        <li>Online store website</li>
+        <li>✅ Yes</li>
+        <li>✅ Yes</li>
+        <li>✅ Yes</li>
+        <li>✅ Yes</li>
+    </div>
+    <div class="main">
+        <li>B2B (wholesale)</li>
+        <li>❌ No </li>
+        <li>❌ No </li>
+        <li>❌ No </li>
+        <li>✅ Yes</li>
+    </div>
+
+
+    <h1>📦 Orders & Checkout Limits</h1>
+
+    <div class="main">
+        <li>Checkout customization</li>
+        <li>❌ No</li>
+        <li>❌ No</li>
+        <li>❌ No</li>
+        <li>✅ Full checkout control</li>
+    </div>
+
+    <div class="main">
+        <li>Third-party calculated shipping rates</li>
+        <li>❌ No</li>
+        <li>❌ No</li>
+        <li>✅ Yes</li>
+        <li>✅ Yes</li>
+    </div>
+
+    <div class="main">
+        <li>Duties & Import Tax</li>
+        <li>❌</li>
+        <li>✅ Basic</li>
+        <li>✅ Advanced</li>
+        <li>✅ Advanced</li>
+    </div>
+
+    <h1>🧾 Reporting Limits</h1>
+
+    <div class="main">
+        <li>Analytics Dashboard</li>
+        <li>✅ Yes</li>
+        <li>✅ Yes</li>
+        <li>✅ Yes</li>
+        <li>✅ Yes</li>
+    </div>
+
+    <div class="main">
+        <li>Sales/Customer Reports</li>
+        <li>✅ Yes</li>
+        <li>✅ Yes</li>
+        <li>✅ Yes</li>
+        <li>✅ Yes </li>
+    </div>
+    <div class="main">
+        <li>Professional Reports</li>
+        <li>❌ No</li>
+        <li>✅ Yes</li>
+        <li>✅ Yes</li>
+        <li>✅ Yes</li>
+    </div>
+    <div class="main">
+        <li>Custom Reports</li>
+        <li>❌ No</li>
+        <li>❌ No</li>
+        <li>✅ Yes</li>
+        <li>✅ Yes</li>
+    </div>
+
+    <h1>📈 API & Automation Limits</h1>
+
+
+    <div class="main">
+        <li>Shopify Flow automation</li>
+        <li>❌ No</li>
+        <li>❌ No</li>
+        <li>❌ No</li>
+        <li>✅ Yes </li>
+    </div>
+    <div class="main">
+        <li>API rate limits</li>
+        <li>Standard</li>
+        <li>Standard</li>
+        <li>Higher</li>
+        <li>Highest</li>
+    </div>
+    <h1>📦 File Storage Limits</h1>
+    <div class="main">
+        <li>File Storage Limits</li>
+        <li>100 GB</li>
+        <li>300 GB</li>
+        <li>500 GB</li>
+        <li>1 TB </li>
+    </div>
+
+    <h1>🛒 Gift Card Limits</h1>
+    <div class="main">
+        <li>Gift Cards</li>
+        <li>✅Unlimited</li>
+        <li>✅Unlimited</li>
+        <li>✅Unlimiteds</li>
+        <li>✅Unlimiteds</li>
+    </div>
+
+    <h1>🧍‍♀️Customer Limits</h1>
+    <div class="main">
+        <li>Customers</li>
+        <li>✅Unlimited</li>
+        <li>✅Unlimited</li>
+        <li>✅Unlimiteds</li>
+        <li>✅Unlimiteds</li>
+    </div>
+
+    <h1>🧍‍♀️Customer Segments Allowed</h1>
+    <div class="main">
+        <li>Customer Segments</li>
+        <li>✅Unlimited</li>
+        <li>✅Unlimited</li>
+        <li>✅Unlimiteds</li>
+        <li>✅Unlimiteds</li>
+    </div>
+
+
+    <h1>➗ Discount Limit</h1>
+    <div class="main">
+        <li>Automatic Discount Limit</li>
+        <li>25</li>
+        <li>25</li>
+        <li>25</li>
+        <li>25</li>
+    </div>
+
+
+    <h1>🔲Shopify Blog Limits</h1>
+    <div class="main">
+        <li>Number of blogs (like “News”, “Fashion Tips”)</li>
+        <li>100 blogs per store</li>
+        <li>100 blogs per store</li>
+        <li>100 blogs per store</li>
+        <li>100 blogs per store</li>
+    </div>
+
+    <div class="main">
+        <li>Blog posts (articles) inside each blog</li>
+        <li>✅Unlimited</li>
+        <li>✅Unlimited</li>
+        <li>✅Unlimited</li>
+        <li>✅Unlimited</li>
+    </div>
+
+
+    <h1>📄Shopify Pages Limit</h1>
+    <div class="main">
+        <li>Pages Limit</li>
+        <li>✅Unlimited</li>
+        <li>✅Unlimited</li>
+        <li>✅Unlimited</li>
+        <li>✅Unlimited</li>
+    </div>
+    <div class="main">
+        <li>collaborator access Staff Accounts Limit</li>
+        <li>2</li>
+        <li>5</li>
+        <li>15</li>
+        <li>✅Unlimited</li>
+    </div>
+
+
+
+    <h1>🏢 Shopify Store Limits (Per Account / Plan)</h1>
+    <div class="main">
+        <li>Shopify Store Limits</li>
+        <li>1 store</li>
+        <li>1 store</li>
+        <li>1 store</li>
+        <li>1 “main” store + 9 expansion stores (10 total)</li>
+    </div>
+
+    <div class="main">
+        <li>Shopify Markets Access</li>
+        <li>❌ No</li>
+        <li>✅ Yes</li>
+        <li>✅ Yes</li>
+        <li>✅ Yes</li>
+    </div>
+
+    <div class="main">
+        <li>Country Selling Limit</li>
+        <li>✅ Unlimited</li>
+        <li>✅ Unlimited</li>
+        <li>✅ Unlimited</li>
+        <li>✅ Unlimited</li>
+    </div>
+    <div class="main">
+        <li>Notes</li>
+        <li>Can sell internationally, but fewer currency/pricing controls</li>
+        <li>Full access to Shopify Markets for country-specific pricing and domains</li>
+        <li>Advanced features like custom duties/taxes per country</li>
+        <li>Best for enterprise-level global selling</li>
+    </div>
+
+
+    <h1>Prefix-Suffix</h1>
+    <div class="main">
+        <li>Feature</li>
+        <li>Prefix</li>
+        <li>Suffix</li>
+    </div>
+    <div class="main">
+        <li>Position</li>
+        <li>Beginning of SKU, tag, or URL</li>
+        <li>End of SKU, tag, or URL</li>
+    </div>
+    <div class="main">
+        <li>Purpose</li>
+        <li>Categorization, identification</li>
+        <li>Additional info (size, color, promo)</li>
+    </div>
+    <div class="main">
+        <li>Examples</li>
+        <li>`ELEC-1234`, `SUM-2025`</li>
+        <li>`1234-XL`, `Tshirt-RED`, `-sale`</li>
+    </div>
+
+    <h1>domains</h1>
+
+    <div class="container">
+
+
+        <div class="table-container">
+            <table>
+                <tr>
+                    <th>Feature</th>
+                    <th>Domain</th>
+                </tr>
+                <tr>
+                    <td class="feature">Custom Domain</td>
+                    <td class="domain">www.yourstore.com</td>
+                </tr>
+                <tr>
+                    <td class="feature">Shopify Subdomain</td>
+                    <td class="domain">yourstore.myshopify.com</td>
+                </tr>
+                <tr>
+                    <td class="feature">Purpose</td>
+                    <td class="purpose">Branding, SEO, customer trust</td>
+                </tr>
+                <tr>
+                    <td class="feature">Setup</td>
+                    <td class="setup">Purchased via domain registrar or through Shopify</td>
+                </tr>
+            </table>
+        </div>
+    </div>
+
+</body>
+
+</html>
